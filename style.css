@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+  background-color: #d7195e;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+header:hover{
+      background-color: #ffffff;
+  color: #d7195e;
+
+}
+
+/* Main */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+}
+
+/* Div Content Box */
+.content-box {
+  background-color: rgb(219, 28, 95);
+  color: #ffffff;
+  padding: 40px;
+  width: 70%;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.272);
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+
+footer:hover{
+    background-color: #ffffff;
+  color: black;
+}
